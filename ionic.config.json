@@ -1,0 +1,8 @@
+{
+  "name": "golagol",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "73d4f3e6"
+}

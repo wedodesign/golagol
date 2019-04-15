@@ -1,0 +1,70 @@
+ion-content {
+    --background: #ffffff;
+}
+ion-list {
+    margin-top: 25vh;
+}
+.login-button {
+    --background: rgb(34,165,91);
+    margin-top: 20px;
+}
+.button {
+    --border-radius: 6px;
+}
+.btn-social {
+    font-size: 2vw;
+}
+.btn-social.facebook {
+    --background: #2d53a5;
+    color: #ffffff;
+}
+.btn-social.instagram {
+    --background: #b32fac;
+}
+ion-item {
+    --border-radius: 6px!important;
+    box-shadow: inset 0px 2px 7px 0px rgba(0, 0, 0, 0), 0 2px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    margin: 15px 10px;
+
+    ion-input {
+        padding: 10px;
+        border: 0px;
+        color: rgb(187,193,205);
+    }
+}
+ion-grid {
+    padding: 0px;
+
+    ion-col {
+        padding: 0px;
+    }
+}
+
+.btn-recovery {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #bbc1cd;
+}
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
